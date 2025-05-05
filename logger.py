@@ -1,6 +1,7 @@
 from datetime import datetime
 
-quote = input("Enter your favorite quote: ")
+quote = input("What's a quote that inspires you today? ")
+
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 with open("quotes.txt", "a") as file:
