@@ -6,4 +6,4 @@ timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 with open("quotes.txt", "a") as file:
     file.write(f"[{timestamp}] {quote}\n")
 
-print("Thanks! Your quote has been logged.")
+print("Thank you! Your quote has been logged.")
