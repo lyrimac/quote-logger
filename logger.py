@@ -1,1 +1,1 @@
-print("Add your favorite quote!")
+print("Enter your favorite quote!")
